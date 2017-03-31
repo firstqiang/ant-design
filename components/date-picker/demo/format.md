@@ -24,10 +24,10 @@ ReactDOM.render(
   <div>
     <DatePicker defaultValue={moment('2015/01/01', dateFormat)} format={dateFormat} />
     <br />
-    <MonthPicker defaultValue={moment('2015/01', monthFormat)} format={monthFormat} />
+    <MonthPicker defaultValue={moment('2017/08/31', monthFormat)} format={monthFormat} />
     <br />
     <RangePicker
-      defaultValue={[moment('2015/01/01', dateFormat), moment('2015/01/01', dateFormat)]}
+      defaultValue={[moment('2015/01/01', dateFormat), moment('2017/08/31', dateFormat)]}
       format={dateFormat}
     />
   </div>
